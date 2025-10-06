@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\00264189104-e1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\00264189104-e1.jpg"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\0f678401-8489-463c-9df1-6a7d853a6ece_IMG_20240726_161849.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0f678401-8489-463c-9df1-6a7d853a6ece_IMG_20240726_161849.jpg"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\IMG_20240726_161849.jpg",
+      "PackagePath": "staticwebassets\\uploads\\IMG_20240726_161849.jpg"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\IMG_20250918_145703.jpg",
+      "PackagePath": "staticwebassets\\uploads\\IMG_20250918_145703.jpg"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\Screenshot 2025-05-20 192212.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-05-20 192212.png"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\profile.webp",
+      "PackagePath": "staticwebassets\\uploads\\profile.webp"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\shopping (11).webp",
+      "PackagePath": "staticwebassets\\uploads\\shopping (11).webp"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\shopping (9).webp",
+      "PackagePath": "staticwebassets\\uploads\\shopping (9).webp"
+    },
+    {
+      "Id": "C:\\cloud-gallery\\backend\\src\\cloudgallery.api\\wwwroot\\uploads\\tanvikas.jpg",
+      "PackagePath": "staticwebassets\\uploads\\tanvikas.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CloudGallery.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CloudGallery.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CloudGallery.Api.props",
+      "PackagePath": "build\\CloudGallery.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CloudGallery.Api.props",
+      "PackagePath": "buildMultiTargeting\\CloudGallery.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CloudGallery.Api.props",
+      "PackagePath": "buildTransitive\\CloudGallery.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

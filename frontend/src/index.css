@@ -1,0 +1,254 @@
+.gallery-container {
+  font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  padding: 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gallery-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1c1e;
+}
+
+.upload-form {
+  display: flex;
+  gap: 10px;
+}
+
+.upload-form input[type="file"] {
+  font-size: 14px;
+}
+
+.upload-form button {
+  background: #007aff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.upload-form button:hover {
+  background: #005fcc;
+}
+
+.date-label {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  aspect-ratio: 1 / 1;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.image-card:hover img {
+  transform: scale(1.07);
+}
+
+/* Hover Overlay */
+.overlay {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
+.icon-btn {
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.icon-btn:hover {
+  background: #fff;
+  transform: scale(1.1);
+}
+
+.icon-btn.delete:hover {
+  background: #ff4d4f;
+  color: white;
+}
+
+.icon-btn.fav {
+  background: #ffd6e7;
+  color: #e03177;
+}
+
+/* Favorite Badge */
+.fav-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: white;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Bottom Sticky Nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+  z-index: 10;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #777;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-btn span {
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.nav-btn.active {
+  color: #007aff;
+  font-weight: 600;
+}
+
+.nav-btn:hover {
+  transform: scale(1.1);
+  color: #007aff;
+}
+
+/* Empty gallery text */
+.no-images {
+  text-align: center;
+  color: #777;
+  margin-top: 40px;
+  font-size: 16px;
+}
+/* Section Management (Menu) */
+.menu-section {
+  padding: 80px;
+  margin-bottom: 70px; /* space above bottom bar */
+}
+
+.add-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-section input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.add-section button {
+  padding: 8px 14px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-block {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.section-images img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.delete-section {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.section-select {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  font-size: 12px;
+  border: none;
+  background: rgba(255,255,255,0.7);
+  border-radius: 6px;
+  cursor: pointer;
+}

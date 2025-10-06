@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CloudGallery.Api.props" />
+</Project>
