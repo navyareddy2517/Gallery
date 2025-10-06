@@ -2,7 +2,7 @@
 
 A cloud-based photo gallery app built with React (frontend) and ASP.NET Core (backend).
 ## Live Demo
-- Gallery: [View Here](https://app.netlify.com/projects/cloudgallery)
+- Gallery: [View Here](https://app.netlify.com/projects/gallery26)
 ## Features
 - Upload & view images
 - Favorites & delete options
@@ -16,5 +16,6 @@ A cloud-based photo gallery app built with React (frontend) and ASP.NET Core (ba
 
 ## How to Run
 1. Start backend:
+
 
 
